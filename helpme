@@ -1,1 +1,31 @@
-print("hello")
+
+while 1 == 1:
+       
+    #variables
+    r = 2
+   
+    if y == 0:
+        n = int(input("Enter Number Between 1 and 50,000 without commas: "))
+    else:
+        n = int(input("Enter Number: "))
+       
+    i = 0
+
+   
+    print ("\nFactors: \n")
+   
+   
+    while n > r:
+   
+        if n % r == 0:
+            print(str(r))
+            i += 1
+   
+        r += 1
+
+   
+    if n <= r:
+        if i == 0:
+            print(str(n) + " is a prime number")
+    print("------------------------------------\n")
+    y += 1
